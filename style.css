@@ -199,6 +199,12 @@ p {
   }
 }
 
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+  body {
+    font-size: 200%;
+  }
+}
+
 @media screen and (min-width:48.958333em) {
   #content {
     width: 44em;
