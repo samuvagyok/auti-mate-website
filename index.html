@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+  <script type="text/javascript">
+    $( document ).ready(function(){
+        var userLang = navigator.language || navigator.userLanguage;
+        if (userLang == "hu") {
+            break;
+        }
+        else {
+            window.location.href = "samuvagyok.github.io/en/"
+        }
+    });
+  </script>
   <title>Auti-mate</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
