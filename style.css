@@ -94,6 +94,19 @@ a, a:active, a:focus, a:hover, a:visited {
   -webkit-justify-content: center;
 }
 
+#languages {
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  margin-right: 0.9375em;
+}
+
+#flag-hu, #flag-en {
+  height: 1.0625em;
+  width: auto;
+  margin-right: 0.9375em;
+}
+
 #logo {
   width: 7.5em;
   height: 1.875em;
@@ -191,18 +204,6 @@ p {
   margin-right: auto;
   margin-top: 1em;
 }
-
-/*@media screen and (min-width:30.01em) {
-  body {
-    font-size: 100%;
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
-  body {
-    font-size: 200%;
-  }
-}*/
 
 @media screen and (min-width:48.958333em) {
   #content {

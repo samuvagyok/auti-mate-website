@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <script type="text/javascript">
-    var userLang = navigator.language || navigator.userLanguage;
-    if (userLang != "hu") {
-      window.location.href = "samuvagyok.github.io/index-en.html"
-    }
-  </script>
-  <title>Auti-mate</title>
   <meta charset="utf-8">
+  <title>Auti-mate</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="js/jquery.i18n.js"></script>
+  <script src="js/jquery.i18n.messagestore.js"></script>
+  <script src="js/jquery.i18n.fallbacks.js"></script>
+  <script src="js/jquery.i18n.language.js"></script>
+  <script src="js/jquery.i18n.parser.js"></script>
+  <script src="js/jquery.i18n.emitter.js"></script>
+  <script src="js/jquery.i18n.emitter.bidi.js"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <script type="text/javascript" src="js/global.js"></script>
 </head>
 <body>
   <div id="header">
     <img id="logo" src="logo_240x60_transp.png" alt="Auti-mate"/>
+    <div id="languages">
+      <img id="flag-hu" alt="Magyar" src="flag-hu.png"/>
+      <img id="flag-en" alt="English" src="flag-en.png"/>
+    </div>
   </div>
   <div id="header-divider"></div>
-  <div id ="subtitle">Készségfejlesztő játékok gyerekeknek.</div>
+  <div id ="subtitle" data-i18n="subtitle"></div>
   <img id="image-games" src="games.png" alt="Játékok"/>
   <div id="content">
-    <h1>Kinek szólnak a játékok?</h1>
-    <p>Játékainkat elsősorban általános iskolás gyerekeknek ajánljuk, de fontosnak tartjuk, hogy bárki számára szórakoztatóak és kihívásteliek legyenek.</p>
-    <h1>Autizmus spektrum-barát kezelőfelület</h1>
-    <p>A játékok tervezésekor kiemelt figyelmet kapnak az autizmussal élő gyerekek. Célunk, hogy olyan játékokat készítsünk, amik az ő igényeiknek megfelelően ingerszegényebbek, érthetőbbek és bejósolhatóbbak más játékokhoz képest.</p>
-    <h1>Hasznos időtöltés a gép előtt</h1>
-    <p>Hisszük, hogy a gyerekek számítógép előtt töltött ideje nem csak szórakoztató, de hasznos is lehet számukra. Az Auti-mate játékok olyan kognitív képességeket gyakoroltatnak, amiket a mindennapi életben is folyamatosan használunk. Többek között ilyenek az észlelés, a figyelem és az emlékezés képességek.</p>
-    <h1>Rólunk</h1>
-    <p>Az Auti-mate Budapesten működő csapata sokéves tapasztalattal rendelkezik mind képességfejlesztés, mind szoftvertervezés területén. Többen közülünk autizmussal élő hozzátartozóinkon keresztül ismerjük az ezzel járó körülményeket. Szívügyünknek tekintjük, hogy megfelelő eszközök készítésével segítsük az autista emberekkel való foglalkozást, és támogassuk az érintett családokat.</p>
-    <p>Jelenleg játékaink fejlesztés alatt állnak. Ha felkeltettük az érdeklődését, kövessen minket <a href="https://www.facebook.com/auti.mate.games/">Facebook oldalunkon</a> keresztül!</p>
+    <h1 data-i18n="h1"></h1>
+    <p data-i18n="p1"></p>
+    <h1 data-i18n="h2"></h1>
+    <p data-i18n="p2"></p>
+    <h1 data-i18n="h3"></h1>
+    <p data-i18n="p3"></p>
+    <h1 data-i18n="h4"></h1>
+    <p data-i18n="p4"></p>
+    <p><span data-i18n="p4-2"></span><a href="https://www.facebook.com/auti.mate.games/" data-i18n="p4-3"></a> <span data-i18n="p4-4"></span></p>
   </div>
   <div id="footer-divider"></div>
   <div id="footer">
