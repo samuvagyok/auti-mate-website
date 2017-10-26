@@ -89,14 +89,14 @@ a, a:active, a:focus, a:hover, a:visited {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  justify-content: center;
-  -webkit-justify-content: center;
+  justify-content: left;
+  -webkit-justify-content: left;
 }
 
 #languages {
   position: absolute;
   width: 100vw;
-  margin-right: 0;
+  margin-right: 0.9375em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -114,12 +114,13 @@ a, a:active, a:focus, a:hover, a:visited {
 #flag-hu, #flag-en {
   height: 1.0625em;
   width: auto;
-  margin-right: 0.625em;
+  margin-right: 0.9375em;
 }
 
 #logo {
   width: 7.5em;
   height: 1.875em;
+  margin-left: 0.9375em;
 }
 
 #header-divider {
@@ -220,11 +221,12 @@ p {
     width: 44em;
     margin: 0 auto;
   }
-  #languages {
-    margin-right: 0.9375em;
+  #header {
+    justify-content: center;
+    -webkit-justify-content: center;
   }
-  #flag-hu, #flag-en {
-    margin-right: 0.9375em;
+  #logo {
+    margin-left: 0;
   }
 }
 
