@@ -93,12 +93,12 @@ a, a:active, a:focus, a:hover, a:visited {
   justify-content: center;
   -webkit-justify-content: center;
   position: relative;
+  width: 100%;
 }
 
 #languages {
   position: absolute;
   width: 100%;
-  height: 5em;
   text-align: right;
   margin-right: 0.9375em;
 }
