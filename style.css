@@ -92,7 +92,6 @@ a, a:active, a:focus, a:hover, a:visited {
   align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
-  position: relative;
 }
 
 #languages {
