@@ -91,12 +91,14 @@ a, a:active, a:focus, a:hover, a:visited {
   align-items: center;
   justify-content: left;
   -webkit-justify-content: left;
+  position: relative;
 }
 
 #languages {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
-  margin-right: 0.9375em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
