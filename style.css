@@ -71,7 +71,6 @@ body {
   background-color: #f4f6f5;
   font-family: 'Dosis', sans-serif;
   color: #586462;
-  font-size: 100%;
 }
 
 a, a:active, a:focus, a:hover, a:visited {
@@ -97,7 +96,7 @@ a, a:active, a:focus, a:hover, a:visited {
 #languages {
   position: absolute;
   width: 100vw;
-  margin-right: 0.9375em;
+  margin-right: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -115,7 +114,7 @@ a, a:active, a:focus, a:hover, a:visited {
 #flag-hu, #flag-en {
   height: 1.0625em;
   width: auto;
-  margin-right: 0.9375em;
+  margin-right: 0.625em;
 }
 
 #logo {
@@ -220,6 +219,12 @@ p {
   #content {
     width: 44em;
     margin: 0 auto;
+  }
+  #languages {
+    margin-right: 0.9375em;
+  }
+  #flag-hu, #flag-en {
+    margin-right: 0.9375em;
   }
 }
 
