@@ -33,6 +33,14 @@ function setLangToHu() {
   location.reload();
 }
 
+window.addEventListener('orientationchange', function () {
+  var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
+  document.body.style.display='none';
+  setTimeout(function () {
+    document.body.style.display = originalBodyStyle;
+  }, 10);
+});
+
 jQuery(function($) {
 
   var lang = readCookie("lang");
